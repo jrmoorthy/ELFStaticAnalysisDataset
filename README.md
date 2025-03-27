@@ -1,8 +1,10 @@
 # ELFStaticAnalysisDataset
 Please cite the following paper if you found this useful - 
+
 **Automated Static Analysis of Linux ELF Malware: Framework and Application**
 
 Linux malware Static analysis dataset of approximately 20,000 ELF malware binaries from VirusShare.
+
 No. of binaries in for each architecture is as follows:
 
 arm	  6946
