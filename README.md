@@ -23,6 +23,10 @@ sparc	1294
 
 x86	  1052
 
-Hashes of the malware as specified by Virusshare is included in the dataset.
+Hashes of the malware as specified by Virusshare is included binary name in the dataset e.g., Virusshare_<hash>_<arch>.
+
+The architecture is also appended to the name of the binary.
+
+More details can be found in the research paper.
 
 
