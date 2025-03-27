@@ -3,7 +3,29 @@ Please cite the following paper if you found this useful -
 
 **Automated Static Analysis of Linux ELF Malware: Framework and Application**
 
-Linux malware Static analysis dataset of approximately 20,000 ELF malware binaries from VirusShare.
+Linux malware Static analysis dataset of ELF header features (approximately 20,000 ELF malware binaries from VirusShare).
+
+Features include : multiple rows for a binary (one row for each section/segment)
+
+binary anme, architecture,	endian,	class	type,	
+
+num_sections,	section_hdr_size,
+
+num_segments	segment_hdr_size,
+
+num_import_funcs,	num_export_funcs,	num_libraries
+
+is_pie,	is_stripped,	
+
+has_nx,	has_notes,	
+
+header_type	name,	size,	vsize	
+
+entropy (section/segment)
+
+perm_read,	perm_write,	perm_exec,	perm_none (permissions of the section/segment)
+![image](https://github.com/user-attachments/assets/72466fc8-aa71-4280-9f44-d3e25a644b5b)
+
 
 No. of binaries in for each architecture is as follows:
 
